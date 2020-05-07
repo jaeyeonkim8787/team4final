@@ -9,7 +9,7 @@ Team#: 4
 Workflow: Track2. single work.
 
 
-Program Description: This program is an educational application that quizes and scores users' knowns about recycling and promotes to learn how to recycle 5 metarials by providing answers with questions. Also users are ranked by their scores. 
+Program Description: This program is an educational application that quizes and scores users' commonsense about recycling and promotes to learn how to recycle 5 metarials by providing answers with questions. Also users are ranked by their scores. 
 
 
 Design:
