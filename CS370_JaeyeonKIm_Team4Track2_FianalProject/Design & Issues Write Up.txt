@@ -20,7 +20,7 @@ Design:
 
 Issues: 
 1. when get a score 100 it does not listed at the top as intended. this is because of the type of this(string). need to be fixed later on. Otherwise, score 80,60,40,20,0 are lines well in order. from the top to bottom.
-2. validity check; such as email. validity check is week such as: if the email is in valid form or not. need to be fixed later on after learning of next level about building apps.
+2. validity check; such as email. validity check is weak such as: if the email is in valid form or not, it cannot define. need to be fixed later on after learning of next level about building apps.
 
 
 
