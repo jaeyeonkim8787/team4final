@@ -11,5 +11,5 @@ Jaeyeon Kim (jaeyeon.kim87@qmail.cuny.edu)
 Minas Karagiorgis (minasfootball@gmail.com) 
 
 # Log
-Jaeyeon Kim (Uploaed on 05.05.2020 Wed 8:59 PM.)
+Jaeyeon Kim (Uploaed on 05.06.2020 Wed 8:59 PM.)
 Minas Karagiorgis (will be uploaded soon or could be handed in via e-mail directly to instructor.)
