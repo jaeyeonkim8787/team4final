@@ -1,0 +1,111 @@
+
+05/06 20:20:24: Launching 'app' on Pixel 2 API 28.
+$ adb shell am start -n "com.jyk.registration2/com.jyk.registration2.LoginActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER
+Connected to process 4870 on device 'Pixel_2_API_28_2 [emulator-5554]'.
+Capturing and displaying logcat messages from application. This behavior can be disabled in the "Logcat output" section of the "Debugger" settings page.
+I/k.registration: Not late-enabling -Xcheck:jni (already on)
+W/k.registration: Unexpected CPU variant for X86 using defaults: x86
+W/k.registration: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (light greylist, reflection)
+W/k.registration: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (light greylist, reflection)
+W/k.registration: Accessing hidden method Landroid/widget/TextView;->getTextDirectionHeuristic()Landroid/text/TextDirectionHeuristic; (light greylist, linking)
+W/k.registration: Accessing hidden method Landroid/graphics/FontFamily;-><init>()V (light greylist, reflection)
+    Accessing hidden method Landroid/graphics/FontFamily;->addFontFromAssetManager(Landroid/content/res/AssetManager;Ljava/lang/String;IZIII[Landroid/graphics/fonts/FontVariationAxis;)Z (light greylist, reflection)
+    Accessing hidden method Landroid/graphics/FontFamily;->addFontFromBuffer(Ljava/nio/ByteBuffer;I[Landroid/graphics/fonts/FontVariationAxis;II)Z (light greylist, reflection)
+    Accessing hidden method Landroid/graphics/FontFamily;->freeze()Z (light greylist, reflection)
+    Accessing hidden method Landroid/graphics/FontFamily;->abortCreation()V (light greylist, reflection)
+W/k.registration: Accessing hidden method Landroid/graphics/Typeface;->createFromFamiliesWithDefault([Landroid/graphics/FontFamily;Ljava/lang/String;II)Landroid/graphics/Typeface; (light greylist, reflection)
+D/OpenGLRenderer: Skia GL Pipeline
+D/HostConnection: HostConnection::get() New Host Connection established 0xe7da2280, tid 4907
+D/HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_YUV420_888_to_NV21 ANDROID_EMU_YUV_Cache ANDROID_EMU_async_unmap_buffer GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_gles_max_version_3_0 
+I/ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+    android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+I/OpenGLRenderer: Initialized EGL, version 1.4
+D/OpenGLRenderer: Swap behavior 1
+W/OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+D/OpenGLRenderer: Swap behavior 0
+D/eglCodecCommon: setVertexArrayObject: set vao to 0 (0) 0 0
+D/EGL_emulation: eglCreateContext: 0xe7d852a0: maj 3 min 0 rcv 3
+D/EGL_emulation: eglMakeCurrent: 0xe7d852a0: ver 3 0 (tinfo 0xe7d83650)
+D/HostConnection: createUnique: call
+    HostConnection::get() New Host Connection established 0xe7da2550, tid 4907
+D/HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_YUV420_888_to_NV21 ANDROID_EMU_YUV_Cache ANDROID_EMU_async_unmap_buffer GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_gles_max_version_3_0 
+E/eglCodecCommon: GoldfishAddressSpaceHostMemoryAllocator: ioctl_ping failed for device_type=5, ret=-1
+D/EGL_emulation: eglMakeCurrent: 0xe7d852a0: ver 3 0 (tinfo 0xe7d83650)
+D/eglCodecCommon: setVertexArrayObject: set vao to 0 (0) 1 2
+I/AssistStructure: Flattened final assist data: 3340 bytes, containing 1 windows, 12 views
+I/AssistStructure: Flattened final assist data: 3396 bytes, containing 1 windows, 12 views
+I/System.out: userId : admin
+    userPassword : admin
+D/NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: true
+I/System.out: result :  login success
+D/EGL_emulation: eglMakeCurrent: 0xe7d852a0: ver 3 0 (tinfo 0xe7d83650)
+W/ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@33d8c8c
+D/EGL_emulation: eglMakeCurrent: 0xe7d852a0: ver 3 0 (tinfo 0xe7d83650)
+I/System.out: userId : admin
+    score : 60
+I/System.out: @@@ MainActivity.userId : admin
+I/System.out: @@@ score : 60
+    @@@ target.userId : http://3.18.107.75:8080/AndroidDB3/addRanking.jsp?userId=admin&score=60
+I/System.out: result : {"msg":"registration success"}
+I/System.out: msg : registration success
+I/System.out: userId : admin
+    score : 60
+    @@@ MainActivity.userId : admin
+    @@@ score : 60
+I/System.out: @@@ target.userId : http://3.18.107.75:8080/AndroidDB3/addRanking.jsp?userId=admin&score=60
+I/System.out: result : {"msg":"registration success"}
+I/System.out: msg : registration success
+I/System.out: userId : admin
+    score : 60
+    @@@ MainActivity.userId : admin
+    @@@ score : 60
+    @@@ target.userId : http://3.18.107.75:8080/AndroidDB3/addRanking.jsp?userId=admin&score=60
+I/System.out: result : {"msg":"registration success"}
+    msg : registration success
+I/System.out: @@@ MainActivity.userId : admin
+I/System.out: result : {"msg":"registration success","response":[{"date":"2020-05-07 00:24:36.0","score":"60","id":"admin"},{"date":"2020-05-07 00:24:35.0","score":"60","id":"admin"},{"date":"2020-05-07 00:24:15.0","score":"60","id":"admin"},{"date":"2020-05-07 00:09:44.0","score":"60","id":"admin"},{"date":"2020-05-07 00:10:06.0","score":"40","id":"admin"},{"date":"2020-05-07 00:09:22.0","score":"20","id":"admin"},{"date":"2020-05-07 00:03:19.0","score":"20","id":"admin"},{"date":"2020-05-07 00:04:18.0","score":"0","id":"admin"}]}
+D/EGL_emulation: eglMakeCurrent: 0xe7d852a0: ver 3 0 (tinfo 0xe7d83650)
+W/ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@e36d122
+D/EGL_emulation: eglMakeCurrent: 0xe7d852a0: ver 3 0 (tinfo 0xe7d83650)
+W/ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@a41f9c4
+W/k.registration: Accessing hidden method Landroid/widget/PopupWindow;->setEpicenterBounds(Landroid/graphics/Rect;)V (light greylist, linking)
+W/k.registration: Accessing hidden method Landroid/widget/PopupWindow;->setClipToScreenEnabled(Z)V (light greylist, reflection)
+D/EGL_emulation: eglMakeCurrent: 0xe7d852a0: ver 3 0 (tinfo 0xe7d83650)
+I/AssistStructure: Flattened final assist data: 4084 bytes, containing 1 windows, 13 views
+I/AssistStructure: Flattened final assist data: 4140 bytes, containing 1 windows, 13 views
+I/AssistStructure: Flattened final assist data: 4172 bytes, containing 1 windows, 13 views
+W/k.registration: Accessing hidden field Landroid/widget/AbsListView;->mIsChildViewEnabled:Z (light greylist, reflection)
+D/EGL_emulation: eglMakeCurrent: 0xe7d852a0: ver 3 0 (tinfo 0xe7d83650)
+I/chatty: uid=10087(com.jyk.registration2) RenderThread identical 7 lines
+D/EGL_emulation: eglMakeCurrent: 0xe7d852a0: ver 3 0 (tinfo 0xe7d83650)
+D/EGL_emulation: eglMakeCurrent: 0xe7d852a0: ver 3 0 (tinfo 0xe7d83650)
+I/chatty: uid=10087(com.jyk.registration2) RenderThread identical 4 lines
+D/EGL_emulation: eglMakeCurrent: 0xe7d852a0: ver 3 0 (tinfo 0xe7d83650)
+D/EGL_emulation: eglMakeCurrent: 0xe7d852a0: ver 3 0 (tinfo 0xe7d83650)
+I/chatty: uid=10087(com.jyk.registration2) RenderThread identical 4 lines
+D/EGL_emulation: eglMakeCurrent: 0xe7d852a0: ver 3 0 (tinfo 0xe7d83650)
+D/EGL_emulation: eglMakeCurrent: 0xe7d852a0: ver 3 0 (tinfo 0xe7d83650)
+D/EGL_emulation: eglMakeCurrent: 0xe7d852a0: ver 3 0 (tinfo 0xe7d83650)
+D/OpenGLRenderer: endAllActiveAnimators on 0xd2896080 (RippleDrawable) with handle 0xd13997e0
+D/EGL_emulation: eglMakeCurrent: 0xe7d852a0: ver 3 0 (tinfo 0xe7d83650)
+I/System.out: userId : popo
+I/System.out: userPassword : popo1234
+    userEmail : popo@gamil.com
+I/System.out: response : 
+I/System.out: {"msg":"register success"}
+D/EGL_emulation: eglMakeCurrent: 0xe7d852a0: ver 3 0 (tinfo 0xe7d83650)
+D/EGL_emulation: eglMakeCurrent: 0xe7d852a0: ver 3 0 (tinfo 0xe7d83650)
+D/EGL_emulation: eglMakeCurrent: 0xe7d852a0: ver 3 0 (tinfo 0xe7d83650)
+D/EGL_emulation: eglMakeCurrent: 0xe7d852a0: ver 3 0 (tinfo 0xe7d83650)
+D/EGL_emulation: eglMakeCurrent: 0xe7d852a0: ver 3 0 (tinfo 0xe7d83650)
+I/AssistStructure: Flattened final assist data: 3340 bytes, containing 1 windows, 12 views
+I/AssistStructure: Flattened final assist data: 3396 bytes, containing 1 windows, 12 views
+I/System.out: userId : popo
+    userPassword : popo1234
+I/System.out: result :  login success
+D/EGL_emulation: eglMakeCurrent: 0xe7d852a0: ver 3 0 (tinfo 0xe7d83650)
+W/ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@e437800
+D/EGL_emulation: eglMakeCurrent: 0xe7d852a0: ver 3 0 (tinfo 0xe7d83650)
+D/EGL_emulation: eglMakeCurrent: 0xe7d852a0: ver 3 0 (tinfo 0xe7d83650)
+D/EGL_emulation: eglMakeCurrent: 0xe7d852a0: ver 3 0 (tinfo 0xe7d83650)
+D/EGL_emulation: eglMakeCurrent: 0xe7d852a0: ver 3 0 (tinfo 0xe7d83650)

@@ -1,0 +1,26 @@
+Name: Jaeyeon Kim
+
+Date: May 6. 2020
+
+Project: Final
+
+Team#: 4
+
+Workflow: Track2. single work.
+
+
+Program Description: This program is an educational application that quizes and scores users' knowns about recycling and promotes to learn how to recycle it by providing answers with questions. Also users are ranked by their scores. 
+
+
+Design:
+1. The basic implements go the same with project3(lv3.)
+2. The mobile application sends user's info(id, pw, email) to the server program.
+3. The server program insert the data recieved form the mobile application into database.
+4. On the databases, users and rankings are recorded by tables.
+
+Issues: 
+1. when get a score 100 it does not listed at the top as I intended. I guess this is because of the type of this(string). I need to fix this later on. Otherwise, score 80,60,40,20,0 are lines well in order. From the top to bottom.
+2. validity check of email. I need to do this if the email in in valid form or not but did not. I have to fix this later.
+
+
+
